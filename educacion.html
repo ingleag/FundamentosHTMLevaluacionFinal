@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<title></title>
+	</head>
+	<body>
+		<!-- LOGO -->
+		<svg width="100px" heigth="50px" viewBox="0 0 100 50">
+			<image width="100px" heigth="50px" xlink:href="img/logo.svg"></image>
+		</svg>
+		<!-- TITULO -->
+		<head> <h1>Hoja de Vida</h1> </head>
+		<!-- DATOS PERSONALES -->
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td> <h2>Nombres: </h2> </td>
+				<td> <h3>Luis Eduardo</h3> </td>
+			</tr>
+			<tr>
+				<td> <h2>Apellidos: </h2> </td>
+				<td> <h3>Amaya Grisales</h3> </td>
+			</tr>
+			<tr>
+				<td> <h2>Fecha Nacimiento: </h2> </td>
+				<td> <h3>16 de Noviembre de 1981</h3> </td>
+			</tr>
+			<tr>
+				<td> <h2>Lugar Nacimiento: </h2> </td>
+				<td> <h3>Medellín - Colombia</h3> </td>
+			</tr>
+		</table>
+
+		<!-- MENÚ BÁSICO -->
+		<ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="educacion.html">Educación</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+
+		<!-- TÍTULO EDUCACIÓN -->
+		<h2>Educación</h2>
+
+		<table border="1" cellpadding="0" cellspacing="0">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2006</td>
+					<td>Universidad de Medellín</td>
+					<td>Medellín</td>
+					<td>Sí</td>
+				</tr>
+				<tr>
+					<td>2009</td>
+					<td>Centro computo UDEM</td>
+					<td>Medellín</td>
+					<td>Sí</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!-- FORMULARIO AGREGAR ESTUDIOS -->
+		<form autocomplete="on" name="Agregar Estudios">
+			<fieldset>
+					<legend>Agregar Estudios</legend>
+					<label><strong>Año:</strong>
+						<select>
+							<option>2000</option>
+							<option>2001</option>
+							<option>2002</option>
+							<option>2003</option>
+							<option>2004</option>
+							<option>2005</option>
+							<option>2006</option>
+							<option>2007</option>
+							<option>2008</option>
+							<option>2009</option>
+							<option>2010</option>
+							<option>2011</option>
+							<option>2012</option>
+							<option>2013</option>
+							<option>2014</option>
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+						</select>
+					</label>
+					<br/>
+					<label><strong>Institución:</strong><input type="text" required> </label>
+					<br/>
+					<label><strong>Lugar:</strong><textarea rows="2" cols="80"></textarea> </label>
+					<br/>
+					<label><strong>¿Culminó?:</strong>
+						<input type="radio" name="si" id="si">Si
+	          <input type="radio" name="no" id="no">No
+					</label>
+					<br/>
+					<input type="submit" name="Enviar" value="Enviar">
+			</fieldset>
+		</form>
+
+		<!-- PIE DE PAGINA -->
+		<footer>
+			<ul>
+				<li><strong>Email: </strong>ingleag@hotmail.com</li>
+				<li><strong>Teléfono: </strong>317 894 59 47</li>
+				<li><strong>Dirección: </strong>Diagonal 75C # 32E 68 Medellín - Colombia</li>
+			</ul>
+		</footer>
+
+	</body>
+</html>
